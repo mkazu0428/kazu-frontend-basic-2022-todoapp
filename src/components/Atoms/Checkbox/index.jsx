@@ -26,11 +26,10 @@ const CheckboxTag = styled.button`
   border-radius: 2px;
   padding: 0;
   background-color: transparent;
+  cursor: pointer;
   &:hover ${ImgCheck} {
     opacity: 1;
   }
 `;
-
-<Checkbox onClick={() => console.log("click")} />;
 
 export default Checkbox;
