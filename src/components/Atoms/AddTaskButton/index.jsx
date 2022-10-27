@@ -14,8 +14,6 @@ const AddTaskButton = (props) => {
   );
 };
 
-<AddTaskButton onClick={() => console.log("click")} />;
-
 const AddTaskButtonTag = styled.button`
   display: flex;
   justify-content: space-between;
@@ -26,6 +24,7 @@ const AddTaskButtonTag = styled.button`
   border-radius: 12px;
   padding: 0 6px;
   background-color: transparent;
+  cursor: pointer;
 
   &:hover {
     background-color: rgba(70, 163, 129, 0.2);
