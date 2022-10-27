@@ -17,6 +17,12 @@ const Circle = styled.div`
   border-radius: 50%;
   background: transparent;
 }`;
+const Img = styled.img`
+  position:absolute;
+  width:20px;
+  top:0;
+  left:0;
+}`;
 const Button = styled.button`
   position:relative;
   width:20px;
@@ -24,18 +30,11 @@ const Button = styled.button`
   padding:0;
   background: transparent;
   border :none;
+  cursor: pointer;
   &:hover  ${Circle}{
     opacity: 0.2;
     background: ${COLOR.LIGHT_GRAY};
   }
 }`;
-const Img = styled.img`
-  position:absolute;
-  width:20px;
-  top:0;
-  left:0;
-}`;
-
-<EditButton onClick={() => console.log("click")} label="ラベル" />;
 
 export default EditButton;
