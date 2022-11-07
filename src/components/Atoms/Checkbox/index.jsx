@@ -22,7 +22,7 @@ const CheckboxTag = styled.button`
   align-items: center;
   width: 20px;
   height: 20px;
-  border: 1px solid ${COLOR.LIGHT_GRAY};
+  border: 2px solid ${COLOR.LIGHT_GRAY};
   border-radius: 2px;
   padding: 0;
   background-color: transparent;
