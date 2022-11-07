@@ -7,7 +7,7 @@ import plus from "../../../assets/svg/plus.svg";
 
 const AddTaskButton = (props) => {
   return (
-    <AddTaskButtonTag onClick={props.onclick}>
+    <AddTaskButtonTag onclick={props.onclick}>
       <ImgPlus src={plus} />
       <AddTaskButtonText>タスクを追加</AddTaskButtonText>
     </AddTaskButtonTag>
